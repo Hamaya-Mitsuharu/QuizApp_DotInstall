@@ -6,6 +6,7 @@ import android.util.Log
 import java.io.*
 
 class MainActivity : AppCompatActivity() {
+    // 問題文と単語が交互に入っている
     var quizSet = arrayOf<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
